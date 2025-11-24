@@ -24,7 +24,7 @@ Management’s Conservation Strategies</title>
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">A Fancy Project Title</h1>
+          <h1 class="title is-1 publication-title">U.S. Wetland Data Visualization for the Bureau of Land Management’s Conservation Strategies</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
               Juhyun Lee<sup>1</sup> and
@@ -103,67 +103,140 @@ data-driven conservation planning.      </p>
 
 
 <section class="section">
-<div class="container is-max-desktop">
-      <h1 class="Result</h1>
+  <div class="container is-max-desktop">
 
+    <!-- Subtitle -->
     <h2 class="subtitle is-5 has-text-centered has-text-grey">
-Hydrogeomorphic (HGM) Characteristics</h2>
+      Hydrogeomorphic (HGM) Characteristics
+    </h2>
 
-  <div class="columns is-centered">
+    <div class="columns is-centered">
 
-    <!-- Feature A -->
-    <div class="column">
-      <div class="content">
-        <h2 class="title is-3 has-text-centered">HGM Classes by Wetland Type</h2>
-        <figure class="image has-text-centered" style="margin-top: 15px;">
+      <!-- Feature A -->
+      <div class="column">
+        <div class="content">
+
+          <h2 class="title is-3 has-text-centered">HGM Classes by Wetland Type</h2>
+
+          <figure class="image has-text-centered" style="margin-top: 15px;">
             <img src="heatmap_HGM_by_WetlandType.png"
-                 alt="Feature A illustration"
-                 style="max-width: 80%; height: auto; display: inline-block;">
-            <figcaption class="is-size-6 has-text-grey">
-Figure 3. Heatmap illustrating how HGM classes vary across wetland types under BLM management.
+                 alt="HGM by Wetland Type"
+                 style="max-width: 90%; height: auto; display: inline-block;">
+            <figcaption class="is-size-6 has-text-grey" style="margin-top: 10px;">
+              Figure 3. Heatmap illustrating how HGM classes vary across wetland types under BLM management.
             </figcaption>
           </figure>
 
-        <p>
-Figure 3 shows that Slope and Riverine wetlands dominate many western regions, indicating terrain-driven hydrology and strong surface flow influence. In contrast, Depression and Flat types are more common in lowland or coastal areas, reflecting greater water retention and limited drainage.        </p>
-        <!-- Optional media/image/video goes here -->
-        <!-- <img src="./static/images/featureA.png" alt="Feature A illustration"> -->
-      </div>
-    </div>
-    <!-- /Feature A -->
+          <p>
+            Figure 3 shows that Slope and Riverine wetlands dominate many western regions,
+            indicating terrain-driven hydrology and strong surface flow influence. In contrast,
+            Depression and Flat types are more common in lowland or coastal areas, reflecting
+            greater water retention and limited drainage.
+          </p>
 
-    <!-- Feature B -->
-    <div class="column">
-      <div class="content">
-        <h2 class="title is-3 has-text-centered">HGM Classes by State</h2>
-                <figure class="image has-text-centered" style="margin-top: 15px;">
-            <img src="heatmap_HGM_by_State.png"
-                 alt="Feature A illustration"
-                 style="max-width: 80%; height: auto; display: inline-block;">
-            <figcaption class="is-size-6 has-text-grey">
-Figure 4. Heatmap showing differences in HGM class composition across BLM-managed states.            </figcaption>
-          </figure>
-        <p>
-Figure 4 highlights how HGM composition varies across states. Nevada, Utah, and Wyoming exhibit simpler, arid-adapted structures, while Oregon and Colorado show more balanced and diverse class distributions. These differences reflect how geomorphology and hydrology shape ecosystem function across landscapes.        </p>
-        <!-- Optional media/image/video goes here -->
-        <!-- <img src="./static/images/featureB.png" alt="Feature B illustration"> -->
+        </div>
       </div>
-    </div>
-    <!-- /Feature B -->
+      <!-- /Feature A -->
+
+      <!-- Feature B -->
+      <div class="column">
+        <div class="content">
+
+          <h2 class="title is-3 has-text-centered">HGM Classes by State</h2>
+
+          <figure class="image has-text-centered" style="margin-top: 15px;">
+            <img src="heatmap_HGM_by_State.png"
+                 alt="HGM by State"
+                 style="max-width: 90%; height: auto; display: inline-block;">
+            <figcaption class="is-size-6 has-text-grey" style="margin-top: 10px;">
+              Figure 4. Heatmap showing differences in HGM class composition across BLM-managed states.
+            </figcaption>
+          </figure>
+
+          <p>
+            Figure 4 highlights how HGM composition varies across states. Nevada, Utah, and Wyoming
+            exhibit simpler, arid-adapted structures, while Oregon and Colorado show more balanced
+            and diverse class distributions. These differences reflect how geomorphology and hydrology
+            shape ecosystem function across landscapes.
+          </p>
+
+        </div>
+      </div>
+      <!-- /Feature B -->
+
+    </div> <!-- /columns -->
+
+  </div> <!-- /container -->
+</section> <!-- /section -->
+
+
+<!-- NEW SECTION: Vegetation -->
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <h2 class="subtitle is-5 has-text-centered has-text-grey">
+      Vegetation Structure and Biodiversity Patterns
+    </h2>
+
+    <!-- Figure 5 -->
+    <figure class="image has-text-centered" style="margin-top: 15px;">
+      <img src="native_nonnative_state.png"
+           alt="Native vs Non-native Vegetation"
+           style="max-width: 90%; height: auto; display: inline-block;">
+      <figcaption class="is-size-6 has-text-grey" style="margin-top: 10px;">
+        Figure 5. Proportion of native vs. non-native vegetation across BLM-managed states.
+      </figcaption>
+    </figure>
+
+    <p>
+      Figure 5 illustrates how vegetation composition varies across BLM-managed states. Oregon and Utah
+      show notably higher proportions of non-native vegetation, suggesting stronger ecological disturbance
+      and reduced habitat stability. In contrast, states such as Alaska and Wyoming are dominated by native
+      vegetation, indicating more intact wetland ecosystems with lower levels of biological disruption.
+    </p>
+
+    <!-- Figure 6 -->
+    <figure class="image has-text-centered" style="margin-top: 15px;">
+      <img src="diversity_hexbin_n1_vs_cvalue.png"
+           alt="Hill's N1 vs C Value"
+           style="max-width: 90%; height: auto; display: inline-block;">
+      <figcaption class="is-size-6 has-text-grey" style="margin-top: 10px;">
+        Figure 6. Relationship between Hill’s N1 diversity index and average C value across wetlands.
+      </figcaption>
+    </figure>
+
+    <p>
+      Figure 6 shows a strong positive relationship between Hill’s N1 (species diversity) and the average C
+      value (ecological integrity). Wetlands with higher species diversity tend to exhibit healthier ecological
+      conditions, while degraded, low-diversity systems cluster in states such as Nevada, Idaho, and Utah,
+      where arid environments and land-use pressures are more intense.
+      <br><br>
+      Together, Figure 5 and 6 demonstrate that declines in biodiversity and increases in non-native vegetation
+      frequently occur in the same regions. These patterns highlight the importance of targeted restoration
+      efforts and adaptive vegetation management to maintain ecological resilience across western U.S. wetlands.
+    </p>
 
   </div>
-</div>
 </section>
-  <section class="section">
+
+  
+
+  
+
+<!-- Final Synthesis Paragraph -->
+<section class="section">
   <div class="container is-max-desktop">
     <div class="content has-text-justified">
       <p>
-      Together, Figure 3 and 4 demonstrate that wetland geomorphology—and thus ecological function—differs significantly across regions. As a result, management and restoration strategies must be tailored to the hydrological regime and landscape characteristics of each state or wetland type.
+        Together, Figure 3 and 4 demonstrate that wetland geomorphology—and thus ecological
+        function—differs significantly across regions. As a result, management and restoration
+        strategies must be tailored to the hydrological regime and landscape characteristics of
+        each state or wetland type.
       </p>
     </div>
   </div>
 </section>
-
+  
 
   
 <section class="section">
