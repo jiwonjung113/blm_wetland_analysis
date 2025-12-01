@@ -186,38 +186,55 @@ This study aims to analyze BLM-managed wetlands across the western United States
 <section class="section" id="hgm">
   <div class="container is-max-desktop">
 
-    <!-- 메인 결과 타이틀 -->
+    <!-- Results 메인 타이틀 -->
     <h2 class="title is-3 has-text-centered">Results</h2>
 
-    <!-- HGM Characteristics 소제목 (여기 위치가 정답) -->
-    <h2 class="title is-4 has-text-centered" style="margin-top: 20px;">
+    <!-- HGM Characteristics 소제목 (가운데 단독) -->
+    <h2 class="title is-5 has-text-centered" style="margin-top: 20px;">
       HGM Characteristics
     </h2>
 
-    <div class="columns is-centered">
-      <div class="column">
-        <div class="content">
+    <!-- 두 개 컬럼 구성 (왼쪽: Wetland Type, 오른쪽: State) -->
+    <div class="columns is-centered" style="margin-top: 30px;">
 
-          <h3 class="subtitle is-5 has-text-centered">HGM Classes by Wetland Type</h3>
+      <!-- LEFT COLUMN: HGM Classes by Wetland Type -->
+      <div class="column is-half">
+        <h3 class="subtitle is-5 has-text-centered">HGM Classes by Wetland Type</h3>
 
-          <figure class="image has-text-centered" style="margin-top: 15px;">
-            <img src="heatmap_HGM_by_WetlandType.png" alt="HGM by Wetland Type"
-                 style="max-width: 90%; height: auto; display: inline-block;">
-            <figcaption class="is-size-6 has-text-grey" style="margin-top: 10px;">
-              Figure 3. Heatmap illustrating how HGM classes vary across wetland types under BLM management.
-            </figcaption>
-          </figure>
-
-          <p>
-            Figure 3 shows that Slope and Riverine wetlands dominate many western regions, indicating terrain-driven hydrology and strong surface flow influence. In contrast, Depression and Flat types are more common in lowland or coastal areas, reflecting greater water retention and limited drainage.
-          </p>
-
-        </div>
+        <figure class="image has-text-centered" style="margin-top: 15px;">
+          <img src="heatmap_HGM_by_WetlandType.png" alt="HGM by Wetland Type"
+               style="max-width: 90%; height: auto; display: inline-block;">
+          <figcaption class="is-size-6 has-text-grey" style="margin-top: 10px;">
+            Figure 3. Heatmap illustrating how HGM classes vary across wetland types under BLM management.
+          </figcaption>
+        </figure>
+        <p style="text-align: justify;">
+          Slope and Riverine wetlands dominate western regions, indicating terrain-driven hydrology
+          and strong surface flow, while Depression-based wetlands show higher retention and less drainage.
+        </p>
       </div>
-    </div>
+
+      <!-- RIGHT COLUMN: HGM Classes by State -->
+      <div class="column is-half">
+        <h3 class="subtitle is-5 has-text-centered">HGM Classes by State</h3>
+
+        <figure class="image has-text-centered" style="margin-top: 15px;">
+          <img src="heatmap_HGM_by_State.png" alt="HGM by State" style="max-width: 90%; height: auto; display: inline-block;">
+          <figcaption class="is-size-6 has-text-grey" style="margin-top: 10px;">
+            Figure X. Distribution of HGM types across BLM-managed wetlands by state.
+          </figcaption>
+        </figure>
+        <p style="text-align: justify;">
+          This visualization highlights how HGM class representation varies among states,
+          reflecting differences in hydrology, terrain, and regional land use.
+        </p>
+      </div>
+
+    </div> <!-- END columns -->
 
   </div>
 </section>
+
 
 
       <div class="column">
